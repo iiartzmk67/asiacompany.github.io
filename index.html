@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio لمصمم جرافيك — أعمال في الهوية البصرية، السوشيال ميديا، الإعلانات والمطبوعات.">
+  <title>Portfolio | Graphic Designer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="#home">YOUR<span>NAME</span></a>
+    <nav>
+      <a href="#home">الرئيسية</a>
+      <a href="#work">أعمالي</a>
+      <a href="#services">خدماتي</a>
+      <a href="#about">من أنا</a>
+      <a href="#contact" class="nav-cta">تواصل معي</a>
+    </nav>
+    <button class="menu-btn" aria-label="فتح القائمة">☰</button>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">GRAPHIC DESIGNER / VISUAL CREATIVE</p>
+        <h1>أحوّل الأفكار إلى <em>تصاميم</em> واضحة ومميزة.</h1>
+        <p class="hero-text">Portfolio شخصي لعرض أعمالي في التصميم الجرافيكي، الهوية البصرية، الإعلانات، السوشيال ميديا والمطبوعات.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#work">شاهد أعمالي</a>
+          <a class="btn ghost" href="#contact">ابدأ مشروعك</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-frame">
+          <span>ضع أفضل عمل لك هنا</span>
+          <small>assets/hero.jpg</small>
+        </div>
+        <div class="hero-stamp">CREATIVE<br><b>01</b></div>
+      </div>
+    </section>
+
+    <section id="work" class="section">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">SELECTED WORK</p>
+          <h2>أعمالي المختارة</h2>
+        </div>
+        <p>استبدل الصور التجريبية بصور أعمالك داخل مجلد <b>assets</b>.</p>
+      </div>
+
+      <div class="filters" role="tablist">
+        <button class="filter active" data-filter="all">الكل</button>
+        <button class="filter" data-filter="branding">Branding</button>
+        <button class="filter" data-filter="social">Social Media</button>
+        <button class="filter" data-filter="advertising">Advertising</button>
+        <button class="filter" data-filter="print">Print</button>
+      </div>
+
+      <div class="portfolio-grid">
+        <article class="project featured" data-category="branding">
+          <div class="project-image"><img src="assets/project-01.jpg" alt="مشروع هوية بصرية" onerror="this.style.display='none'"><span>01</span></div>
+          <div class="project-info"><h3>Brand Identity</h3><p>هوية بصرية</p></div>
+        </article>
+        <article class="project" data-category="social">
+          <div class="project-image"><img src="assets/project-02.jpg" alt="تصميم سوشيال ميديا" onerror="this.style.display='none'"><span>02</span></div>
+          <div class="project-info"><h3>Social Campaign</h3><p>سوشيال ميديا</p></div>
+        </article>
+        <article class="project" data-category="advertising">
+          <div class="project-image"><img src="assets/project-03.jpg" alt="تصميم إعلاني" onerror="this.style.display='none'"><span>03</span></div>
+          <div class="project-info"><h3>Advertising</h3><p>إعلان</p></div>
+        </article>
+        <article class="project" data-category="print">
+          <div class="project-image"><img src="assets/project-04.jpg" alt="تصميم مطبوعات" onerror="this.style.display='none'"><span>04</span></div>
+          <div class="project-info"><h3>Print Design</h3><p>مطبوعات</p></div>
+        </article>
+        <article class="project" data-category="social">
+          <div class="project-image"><img src="assets/project-05.jpg" alt="تصميم منشورات" onerror="this.style.display='none'"><span>05</span></div>
+          <div class="project-info"><h3>Content Design</h3><p>محتوى بصري</p></div>
+        </article>
+        <article class="project" data-category="branding">
+          <div class="project-image"><img src="assets/project-06.jpg" alt="مشروع علامة تجارية" onerror="this.style.display='none'"><span>06</span></div>
+          <div class="project-info"><h3>Visual System</h3><p>نظام بصري</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="services" class="section dark-section">
+      <div class="section-head">
+        <div><p class="eyebrow">WHAT I DO</p><h2>خدماتي</h2></div>
+      </div>
+      <div class="services-grid">
+        <div class="service"><span>01</span><h3>الهوية البصرية</h3><p>تصميم هوية متكاملة وعناصر بصرية متناسقة.</p></div>
+        <div class="service"><span>02</span><h3>السوشيال ميديا</h3><p>منشورات وحملات بصرية جذابة ومتناسقة.</p></div>
+        <div class="service"><span>03</span><h3>الإعلانات</h3><p>تصاميم إعلانية واضحة وموجهة للنتائج.</p></div>
+        <div class="service"><span>04</span><h3>المطبوعات</h3><p>منيوهات، بوسترات، فلايرات وتصاميم للطباعة.</p></div>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="about-card">
+        <p class="eyebrow">ABOUT ME</p>
+        <h2>مصمم يهتم بالتفاصيل قبل كل شيء.</h2>
+        <p>أنا مصمم جرافيك أعمل على تحويل الأفكار إلى حلول بصرية عملية وجذابة، مع اهتمام خاص بالتكوين، الألوان، الخطوط وتقديم العمل بأفضل صورة ممكنة.</p>
+        <div class="stats">
+          <div><strong>XX+</strong><span>مشروع</span></div>
+          <div><strong>XX</strong><span>عميل</span></div>
+          <div><strong>XX</strong><span>سنوات خبرة</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <p class="eyebrow">LET'S WORK TOGETHER</p>
+      <h2>لديك فكرة؟<br><em>دعنا نحولها إلى تصميم.</em></h2>
+      <p>للتواصل والاستفسار عن مشروع جديد، استخدم إحدى وسائل التواصل التالية.</p>
+      <div class="contact-actions">
+        <a class="btn primary" href="https://wa.me/9640000000000" target="_blank" rel="noopener">WhatsApp</a>
+        <a class="btn ghost" href="mailto:your@email.com">Email</a>
+      </div>
+      <div class="socials">
+        <a href="#" target="_blank" rel="noopener">Instagram</a>
+        <a href="#" target="_blank" rel="noopener">Behance</a>
+        <a href="#" target="_blank" rel="noopener">Facebook</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© 2026 YOUR NAME</span>
+    <span>Graphic Designer / Portfolio</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

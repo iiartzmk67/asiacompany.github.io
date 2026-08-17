@@ -113,20 +113,323 @@
       </div>
     </section>
 
-    <section id="contact" class="contact-section">
-      <p class="eyebrow">LET'S WORK TOGETHER</p>
-      <h2>لديك فكرة؟<br><em>دعنا نحولها إلى تصميم.</em></h2>
-      <p>للتواصل والاستفسار عن مشروع جديد، استخدم إحدى وسائل التواصل التالية.</p>
-      <div class="contact-actions">
-        <a class="btn primary" href="https://wa.me/9640000000000" target="_blank" rel="noopener">WhatsApp</a>
-        <a class="btn ghost" href="mailto:your@email.com">Email</a>
+<!-- CONTACT SECTION -->
+<section id="contact" class="contact-section" dir="rtl">
+
+  <div class="contact-container">
+
+    <div class="contact-heading">
+      <span class="contact-label">تواصل معنا</span>
+
+      <h2>
+        جاهزون لتنفيذ
+        <span>مشروعك</span>
+      </h2>
+
+      <p>
+        للاستفسار عن خدمات الطباعة والتصميم أو للحصول على عرض سعر،
+        تواصل معنا عبر إحدى وسائل الاتصال التالية.
+      </p>
+    </div>
+
+
+    <div class="contact-grid">
+
+      <!-- معلومات المطبعة -->
+      <div class="contact-card">
+
+        <div class="contact-icon">⌂</div>
+
+        <h3>عنوان المطبعة</h3>
+
+        <p>
+          شركة آسيا للمطابع
+          <br>
+          بغداد – العراق
+          <br>
+          اكتب عنوان المطبعة هنا
+        </p>
+
+        <a
+          href="https://maps.google.com/"
+          target="_blank"
+          class="contact-link">
+          فتح الموقع على الخريطة
+        </a>
+
       </div>
-      <div class="socials">
-        <a href="#" target="_blank" rel="noopener">Instagram</a>
-        <a href="#" target="_blank" rel="noopener">Behance</a>
-        <a href="#" target="_blank" rel="noopener">Facebook</a>
+
+
+      <!-- الهاتف -->
+      <div class="contact-card">
+
+        <div class="contact-icon">☎</div>
+
+        <h3>اتصل بنا</h3>
+
+        <p>
+          0770 XXX XXXX
+          <br>
+          0780 XXX XXXX
+        </p>
+
+        <a
+          href="tel:+9647700000000"
+          class="contact-link">
+          اتصال مباشر
+        </a>
+
       </div>
-    </section>
+
+
+      <!-- واتساب -->
+      <div class="contact-card">
+
+        <div class="contact-icon">◉</div>
+
+        <h3>واتساب</h3>
+
+        <p>
+          للاستفسار والطلبات
+          <br>
+          تواصل معنا مباشرة
+        </p>
+
+        <a
+          href="https://wa.me/9647700000000"
+          target="_blank"
+          class="contact-link">
+          تواصل عبر واتساب
+        </a>
+
+      </div>
+
+
+      <!-- البريد الإلكتروني -->
+      <div class="contact-card">
+
+        <div class="contact-icon">✉</div>
+
+        <h3>البريد الإلكتروني</h3>
+
+        <p>
+          info@example.com
+          <br>
+          نرد على استفساراتكم
+        </p>
+
+        <a
+          href="mailto:info@example.com"
+          class="contact-link">
+          إرسال بريد إلكتروني
+        </a>
+
+      </div>
+
+    </div>
+
+
+    <!-- مواقع التواصل الاجتماعي -->
+    <div class="social-area">
+
+      <h3>تابعنا على مواقع التواصل الاجتماعي</h3>
+
+      <div class="social-links">
+
+        <a
+          href="https://instagram.com/"
+          target="_blank">
+          Instagram
+        </a>
+
+        <a
+          href="https://facebook.com/"
+          target="_blank">
+          Facebook
+        </a>
+
+        <a
+          href="https://t.me/"
+          target="_blank">
+          Telegram
+        </a>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<style>
+
+.contact-section {
+  background: #ed1c24;
+  color: #ffffff;
+  padding: 100px 7%;
+  margin: 0;
+}
+
+.contact-container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.contact-heading {
+  max-width: 850px;
+  margin-bottom: 60px;
+}
+
+.contact-label {
+  display: block;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: 3px;
+  margin-bottom: 20px;
+}
+
+.contact-heading h2 {
+  font-size: clamp(42px, 6vw, 80px);
+  line-height: 1.05;
+  margin: 0 0 25px;
+  font-weight: 800;
+}
+
+.contact-heading h2 span {
+  color: #111111;
+}
+
+.contact-heading p {
+  font-size: 18px;
+  line-height: 2;
+  max-width: 750px;
+  margin: 0;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border-top: 1px solid rgba(255,255,255,0.35);
+  border-right: 1px solid rgba(255,255,255,0.35);
+}
+
+.contact-card {
+  min-height: 270px;
+  padding: 35px 28px;
+  border-left: 1px solid rgba(255,255,255,0.35);
+  border-bottom: 1px solid rgba(255,255,255,0.35);
+  transition: 0.3s ease;
+}
+
+.contact-card:hover {
+  background: #111111;
+}
+
+.contact-icon {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(255,255,255,0.5);
+  margin-bottom: 30px;
+  font-size: 22px;
+}
+
+.contact-card h3 {
+  font-size: 22px;
+  margin: 0 0 15px;
+}
+
+.contact-card p {
+  color: rgba(255,255,255,0.9);
+  line-height: 1.9;
+  font-size: 16px;
+  min-height: 65px;
+}
+
+.contact-link {
+  display: inline-block;
+  margin-top: 15px;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 700;
+  border-bottom: 2px solid #ffffff;
+  padding-bottom: 5px;
+}
+
+.social-area {
+  margin-top: 60px;
+  padding-top: 35px;
+  border-top: 1px solid rgba(255,255,255,0.35);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.social-area h3 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.social-links {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.social-links a {
+  color: #ffffff;
+  text-decoration: none;
+  border: 1px solid rgba(255,255,255,0.5);
+  padding: 12px 22px;
+  transition: 0.3s ease;
+}
+
+.social-links a:hover {
+  background: #111111;
+  border-color: #111111;
+}
+
+@media (max-width: 900px) {
+
+  .contact-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .social-area {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+}
+
+@media (max-width: 600px) {
+
+  .contact-section {
+    padding: 70px 25px;
+  }
+
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-card {
+    min-height: auto;
+  }
+
+  .contact-heading h2 {
+    font-size: 44px;
+  }
+
+}
+
+</style>
+<!-- END CONTACT SECTION -->ion>
   </main>
 
   <footer>
